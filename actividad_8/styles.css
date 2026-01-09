@@ -1,0 +1,26 @@
+.d1 {
+    background-color: tomato;
+}
+.d2 {
+    background-color: orange;
+}
+.d3 {
+    background-color: gold;
+}
+.d4 {
+    background-color: yellowgreen;
+}
+.d5 {
+    background-color: lightseagreen;
+    grid-column: 2 / 4;
+    grid-row: 2 / 8 ;
+}
+.container{
+    font-size: 40px;
+    width: 100%;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
